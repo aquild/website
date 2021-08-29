@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Flex } from "theme-ui";
-import { FaDiscord, FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaEnvelope, FaGithub } from "react-icons/fa";
 
 const socialsList = [
   {
@@ -10,10 +10,6 @@ const socialsList = [
   {
     icon: <FaEnvelope />,
     onClick: () => window.open("mailto://aquild@aquild.dev", "_blank"),
-  },
-  {
-    icon: <FaDiscord />,
-    onClick: () => window.open("https://discord.bio/p/aquild", "_blank"),
   },
 ];
 
